@@ -1,0 +1,28 @@
+.twelvecolumngrid {
+    grid-template-rows: repeat(4, auto);
+}
+
+.what__section {
+    grid-area: 1/1/2/-1;
+}
+
+.what__section h2 {
+    grid-column: 2/12;
+    grid-row: 1/1;
+}
+
+.what__section .text {
+    grid-column: 2/6;
+    grid-row: 2/5;
+}
+
+.what__section h2,
+.what__section p {
+    margin-bottom: 1em;
+}
+
+.what__section img {
+    grid-column: 6/12;
+    grid-row: 1/5;
+    width: 750px;
+}
